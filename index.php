@@ -1,8 +1,8 @@
 <?php
 
 $connection = require_once './Connection.php';
-$notes = $connection->getNotes();
 
+$notes = $connection->getNotes();
 $current_note = [
     'id' => '',
     'title' => '',
